@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        app:cardCornerRadius="8dp"
+        android:elevation="4dp"
+        android:background="@color/cardColorDefault"
+        android:id="@+id/card">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+
+        <ImageView
+                android:id="@+id/cardImage"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/ic_note"/>
+
+        <TextView
+                android:id="@+id/cardTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dummy title"
+                android:textSize="24sp"
+                android:textColor="@android:color/white"
+                android:layout_toEndOf="@+id/cardImage"
+                android:layout_marginStart="4dp"/>
+
+        <TextView
+                android:id="@+id/cardSubtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dummy subtitle"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:layout_toEndOf="@+id/cardImage"
+                android:layout_below="@+id/cardTitle"
+                android:layout_marginStart="4dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
