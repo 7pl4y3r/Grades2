@@ -27,7 +27,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dummy title"
                 android:textSize="24sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:layout_toEndOf="@+id/cardImage"
                 android:layout_marginStart="4dp"/>
 
@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:text="Dummy subtitle"
                 android:textSize="16sp"
-                android:textColor="@android:color/white"
+                android:textColor="@android:color/black"
                 android:layout_toEndOf="@+id/cardImage"
                 android:layout_below="@+id/cardTitle"
                 android:layout_marginStart="4dp"/>

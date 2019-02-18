@@ -1,6 +1,7 @@
 package com.apps.a7pl4y3r.grades.daos
 
 
+import android.database.Cursor
 import androidx.room.*
 import com.apps.a7pl4y3r.grades.objects.Grade
 
@@ -18,6 +19,6 @@ interface GradeDao {
     fun delete(grade: Grade)
 
     @Query("SELECT * FROM `grades.db` ORDER BY id ASC")
-    fun getGrades(): ArrayList<Grade>
+    fun getGrades(): Cursor
 
 }
